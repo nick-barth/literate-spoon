@@ -1,4 +1,3 @@
-// canvas related stuff
 let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 let WIDTH = canvas.width;
@@ -22,6 +21,7 @@ window.onload = function (e) {
     "https://images.unsplash.com/photo-1666786881194-7ecf6f620375?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
     "https://images.unsplash.com/photo-1535136072409-ff0c7a947733?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2049&q=80",
   ];
+
   Promise.all(imageUrls.map(loadImage)).then((completedImages) => {
     images = completedImages;
     renderImages();
