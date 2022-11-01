@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 600px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 100%;
+  cursor: grab;
+}
+
+#container.active {
+  cursor: grabbing;
+}
+
+#canvas {
+  background: blue;
+}
