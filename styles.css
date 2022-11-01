@@ -1,9 +1,10 @@
-body {
+.container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-#container {
+#canvasContainer {
   width: 600px;
   overflow-x: auto;
   overflow-y: hidden;
@@ -11,10 +12,22 @@ body {
   cursor: grab;
 }
 
-#container.active {
+#canvasContainer.scrollbarHidden {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+#canvasContainer.scrollbarHidden::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+#canvasContainer.active {
   cursor: grabbing;
 }
 
 #canvas {
   background: blue;
+}
+
+button {
+  margin-top: 24px;
 }

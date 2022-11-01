@@ -27,10 +27,15 @@ window.onload = function (e) {
     images = completedImages;
     renderImages();
 
-    const container = document.querySelector("#container");
+    const container = document.querySelector("#canvasContainer");
     let isDown = false;
     let startX;
     let scrollLeft;
+
+    const button = document.querySelector("#button");
+    button.addEventListener("click", () => {
+      container.classList.toggle("scrollbarHidden");
+    });
 
     container.addEventListener("mousedown", (e) => {
       isDown = true;
