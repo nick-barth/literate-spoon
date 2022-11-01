@@ -17,7 +17,7 @@ window.onload = function (e) {
 
   const imageUrls = [
     "https://images.unsplash.com/photo-1666085575722-bdf8a510c2c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1011&q=80",
-    "http://clipart-library.com/data_images/320465.png",
+    "https://nick-barth.com/static/4ace7d16d244622638b9925786485701/8295c/nick-barth.jpg",
     "https://images.unsplash.com/photo-1607788156334-50076e4c7624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     "https://images.unsplash.com/photo-1666786881194-7ecf6f620375?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
     "https://images.unsplash.com/photo-1535136072409-ff0c7a947733?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2049&q=80",
