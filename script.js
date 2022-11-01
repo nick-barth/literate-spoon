@@ -49,9 +49,6 @@ window.onload = function (e) {
       const walk = x - startX;
       container.scrollLeft = scrollLeft - walk;
     });
-    window.addEventListener("resize", (e) => {
-      renderImages();
-    });
   });
 };
 
